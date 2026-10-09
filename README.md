@@ -280,3 +280,43 @@ issue.** Issues are public.
   not added quietly later.
 - **Security by default**, not bolted on afterwards, and improved whenever
   there is a real reason to.
+
+---
+
+## Changelog
+
+Build 15
+* New: Google Drive sync (Windows, macOS, Linux, iPhone, iPad, Android)
+* Keep a vault in sync across your devices through your own Google Drive. It is off until you turn it on, one vault at a time.
+* Your vault is encrypted on your device before upload. Google cannot read it.
+* Eldrfur can only see the files it creates and files you pick. Google enforces this.
+* No Azimos Labs server is involved. We never see your file or your Google account.
+* To fully remove access, press Disconnect before uninstalling, or remove "Eldrfur Data Vault" in your Google Account's security settings.
+* On Android, Google Drive needs Google Play Services.
+
+Desktop
+* Web addresses in an item now have an Open button that shows where it goes. Only http and https links open.
+Windows: fixed an installer problem that stopped the app from starting on some PCs.
+
+Android
+* Optional safety notes warn you before unlocking if an app can read or control your screen. They never block you, run only on your phone, and can be turned off in Settings.
+Passkeys saved in Eldrfur now work on websites in supported browsers.
+
+Fixes
+* Fixed new vaults failing to create.
+Decrypted data from imports is now overwritten in memory after use.
+* A backup too large for your device's memory now shows a clear message instead of closing the app.
+
+Build 14
+* Backup and restore. Export your whole vault to one encrypted file under a password you choose. The file is read back and proved to open before the export reports success, and the report gives you a SHA-256 so you can check a copy later.
+* Import from a backup or from Bitwarden. Nothing is written until you approve it: you see what matches, what is new and what conflicts, choose per entry, and nothing is ever deleted.
+* Export to Bitwarden's format. It cannot carry everything, so the screen tells you exactly what will be left out before it runs.
+* Closing the window locks the vault and clears your key from memory. On Linux and Windows this also covers logging out and shutting down.
+* PDF attachments can be viewed in the app on Linux, which previously was not possible.
+* Sync gives up promptly when there is no internet instead of spending minutes retrying.
+* Desktop window fixes. Windows has a minimum size, and neither desktop can open a window larger than the screen it appears on.
+
+Build 13
+* Stronger encryption on disk. Every field in your vault now has its own nonce, a tag binding it to where it is stored, and padding that hides its length.
+* Your vault migrates itself the first time you unlock after updating. Nothing to do, nothing to export first.
+* AutoFill reads the new format. If you use it, update the app and the extension together.
