@@ -1,0 +1,117 @@
+Azimos Labs Proprietary License, Version 1.0
+
+Copyright (c) 2026 Azimos Labs, LLC. All rights reserved.
+
+1. DEFINITIONS
+
+   "Company" means Azimos Labs, LLC.
+
+   "Software" means everything in this repository and in any release,
+   build, package or file published from it, including source code,
+   compiled programs, scripts, documentation, images and other assets,
+   in any version, and any work derived from any of them.
+
+   "Permission" means a written grant from the Company, signed or sent
+   by an authorized officer of the Company, that names the person or
+   organization receiving it. Nothing else counts as Permission,
+   including access to this repository, a fork, a download, silence, or
+   any past or informal conversation.
+
+   "Licensee" means a person or organization holding Permission.
+
+   "Retrieval Date" means the calendar date (YYYY-MM-DD, UTC) on which
+   the Licensee obtained the copy of the Software it uses.
+
+2. NO RIGHTS WITHOUT PERMISSION
+
+   No one may use, run, install, deploy, copy, modify, translate, merge,
+   publish, distribute, sublicense, sell, rent, host as a service,
+   reverse engineer (except where applicable law forbids this
+   restriction), or create derivative works of the Software, in whole
+   or in part, without Permission. This includes using the Software, or
+   any part of it, to train, fine tune or evaluate any machine learning
+   or artificial intelligence system.
+
+3. PUBLIC VISIBILITY IS NOT PERMISSION
+
+   The Software may be stored in a publicly visible repository. Being
+   able to see or download it does not grant any right to use it. The
+   only exception is the limited right GitHub's Terms of Service give
+   GitHub users to view this repository and fork it within GitHub's own
+   service. That exception grants no right to use, run, copy outside
+   GitHub, modify for use, or distribute the Software.
+
+4. CONDITIONS THAT APPLY WHEN PERMISSION IS GIVEN
+
+   Every Licensee must, for as long as it uses the Software:
+
+   a. Credit the Company. Show the following notice, filled in, in the
+      product's documentation, in any "About", credits or legal screen
+      the product has, and in every copy or distribution of the
+      Software or of anything that contains it:
+
+         Contains software by Azimos Labs, LLC, used with permission.
+         Retrieved on: YYYY-MM-DD (UTC)
+         Version: <version or release tag>
+         Source: <repository address and commit identifier, if known>
+
+      The Retrieval Date must be the real date the Licensee obtained
+      that copy. Each newer copy obtained later needs its own notice
+      with its own Retrieval Date.
+
+   b. Keep this license file and all copyright notices in the Software
+      unchanged and complete.
+
+   c. Use the Software only within the scope, term and place stated in
+      its Permission. Where the Permission and this license differ, the
+      Permission controls.
+
+   Unless the Permission says otherwise, Permission is personal to the
+   Licensee, may not be transferred or sublicensed, and may be revoked
+   by the Company in writing.
+
+5. THIRD PARTY COMPONENTS
+
+   Some files in the Software are owned by others and carry their own
+   licenses (for example, files under third_party/ and the packages
+   listed in the project's dependency files). Those files are governed
+   by their own licenses, not by this one, and nothing here limits any
+   right those licenses give.
+
+6. TRADEMARKS
+
+   This license grants no right to use the names, logos or trademarks
+   of the Company, except as needed to give the credit required in
+   section 4.
+
+7. NO WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+8. LIMITATION OF LIABILITY
+
+   TO THE FULLEST EXTENT ALLOWED BY LAW, THE COMPANY SHALL NOT BE
+   LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+   CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION
+   WITH THE SOFTWARE OR ITS USE.
+
+9. TERMINATION
+
+   Any use outside this license or outside a Permission ends the
+   Licensee's rights automatically and at once. On termination the
+   Licensee must stop all use and delete every copy of the Software in
+   its possession or control. Sections 4(b), 5 to 10 survive
+   termination.
+
+10. GOVERNING LAW
+
+   This license is governed by the laws of the State in which Azimos
+   Labs, LLC is organized, without regard to its conflict of law rules.
+
+11. ASKING FOR PERMISSION
+
+   To request Permission, contact Azimos Labs, LLC through the contact
+   details published in this repository or on the Company's official
+   website. State who you are, what you want to use, and how.
